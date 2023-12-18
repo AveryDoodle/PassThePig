@@ -17,6 +17,9 @@
 		1DC0A03D2B1F779300ACF31F /* PassThePigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A03C2B1F779300ACF31F /* PassThePigTests.swift */; };
 		1DC0A0472B1F779300ACF31F /* PassThePigUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A0462B1F779300ACF31F /* PassThePigUITests.swift */; };
 		1DC0A0492B1F779300ACF31F /* PassThePigUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A0482B1F779300ACF31F /* PassThePigUITestsLaunchTests.swift */; };
+		1DC0A0562B20C6D100ACF31F /* ViewControllerPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A0552B20C6D100ACF31F /* ViewControllerPlay.swift */; };
+		1DC0A0582B20C6FF00ACF31F /* ViewControllerPlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC0A0572B20C6FF00ACF31F /* ViewControllerPlayers.swift */; };
+		1DC0A05A2B226F4300ACF31F /* doubleTrotter.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DC0A0592B226F4300ACF31F /* doubleTrotter.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		1DC0A0422B1F779300ACF31F /* PassThePigUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassThePigUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DC0A0462B1F779300ACF31F /* PassThePigUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThePigUITests.swift; sourceTree = "<group>"; };
 		1DC0A0482B1F779300ACF31F /* PassThePigUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThePigUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1DC0A0552B20C6D100ACF31F /* ViewControllerPlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlay.swift; sourceTree = "<group>"; };
+		1DC0A0572B20C6FF00ACF31F /* ViewControllerPlayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPlayers.swift; sourceTree = "<group>"; };
+		1DC0A0592B226F4300ACF31F /* doubleTrotter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleTrotter.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				1DC0A0242B1F779000ACF31F /* SceneDelegate.swift */,
 				1DC0A0262B1F779000ACF31F /* ViewController.swift */,
 				1DC0A0282B1F779000ACF31F /* Main.storyboard */,
+				1DC0A0572B20C6FF00ACF31F /* ViewControllerPlayers.swift */,
+				1DC0A0592B226F4300ACF31F /* doubleTrotter.png */,
+				1DC0A0552B20C6D100ACF31F /* ViewControllerPlay.swift */,
 				1DC0A02E2B1F779200ACF31F /* Assets.xcassets */,
 				1DC0A0302B1F779200ACF31F /* LaunchScreen.storyboard */,
 				1DC0A0332B1F779200ACF31F /* Info.plist */,
@@ -236,6 +245,7 @@
 			files = (
 				1DC0A0322B1F779200ACF31F /* LaunchScreen.storyboard in Resources */,
 				1DC0A02F2B1F779200ACF31F /* Assets.xcassets in Resources */,
+				1DC0A05A2B226F4300ACF31F /* doubleTrotter.png in Resources */,
 				1DC0A02A2B1F779000ACF31F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +275,8 @@
 				1DC0A0232B1F779000ACF31F /* AppDelegate.swift in Sources */,
 				1DC0A0252B1F779000ACF31F /* SceneDelegate.swift in Sources */,
 				1DC0A02D2B1F779000ACF31F /* PassThePig.xcdatamodeld in Sources */,
+				1DC0A0562B20C6D100ACF31F /* ViewControllerPlay.swift in Sources */,
+				1DC0A0582B20C6FF00ACF31F /* ViewControllerPlayers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
